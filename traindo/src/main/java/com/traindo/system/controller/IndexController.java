@@ -17,6 +17,5 @@ public class IndexController {
 //	public String index(HttpServletRequest request) {
 //		return "redirect:views/login.html";
 //	}
-	
-	
+
 }

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+    <div id = "app">
+        <p>{{ message }}</p>
+        <input type="text" v-model="message"/>
+    </div>
+    <div id="app1">
+       <h1>Hello, Vue.js!</h1>
+       <h1 v-if="yes">Yes!</h1>
+       <h1 v-if="no">No!</h1>
+       <h1 v-else>Name: {{ name }}</h1>
+       <h1 v-if="age >= 25">Age: {{ age }}</h1>
+       <h1 v-if="name.indexOf('jack') >= 0">Name: {{ name }}</h1>
+    </div>
+    <div id="app2">
+       <h1>Hello, Vue.js!</h1>
+       <h1 v-show="yes">Yes!</h1>
+       <h1 v-show="no">No!</h1>
+       <h1 v-show="age >= 25">Age: {{ age }}</h1>
+       <h1 v-show="name.indexOf('jack') >= 0">Name: {{ name }}</h1>
+    </div>
+    <div id="app4">
+        <p><input type="text" v-model="message"></p>
+        <p>
+            <!--click事件直接绑定一个方法-->
+            <button v-on:click="greet">Greet</button>
+        </p>
+        <p>
+            <!--click事件使用内联语句-->
+            <button v-on:click="say('Hi')">Hi</button>
+        </p>
+    </div>
+        
+        
+        <hr>
+        <hr>
+        
+         <div id="app3">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Age</th>
+                        <th>Sex</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr v-for="person in people">
+                        <td>{{ person.name  }}</td>
+                        <td>{{ person.age  }}</td>
+                        <td>{{ person.sex  }}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+    <script src="../js/vue.js"></script>
+    <script>
+        //  这是我们的Model 
+        var obj = {
+            message: 'Hello World!'
+        }
+        // 声明一个 Vue 实例 ，即 "ViewModel"，实例中传入一个对象，用来连接 View 与 Model
+        new Vue({
+            el: '#app',    // 将id为app的dom节点放进来，即建立了与视图view的连接。
+            data: obj　　　　// 将obj放入到实例的data属性中, 此时建立与数据model的连接。
+ 　　　　})
+        var vm = new Vue({
+            el: '#app1',
+            data: {
+                yes: true,
+                no: false,
+                age: 28,
+                name: 'jack'
+            }
+        })
+        var vm2 = new Vue({
+            el: '#app2',
+            data: {
+                yes: true,
+                no: false,
+                age: 28,
+                name: 'World'
+            }
+        })
+        
+        var vm3 = new Vue({
+            el: '#app3',
+            data: {
+                people: [{
+                    name: 'Jack',
+                    age: 30,
+                    sex: 'Male'
+                }, {
+                    name: 'Bill',
+                    age: 26,
+                    sex: 'Male'
+                }, {
+                    name: 'Tracy',
+                    age: 22,
+                    sex: 'Female'
+                }, {
+                    name: 'Chris',
+                    age: 36,
+                    sex: 'Male'
+                }]
+            }
+        })
+        var vm = new Vue({
+            el: '#app4',
+            data: {
+                message: 'Hello, Vue.js!'
+            },
+            // 在 `methods` 对象中定义方法
+            methods: {
+                greet: function() {
+                    // // 方法内 `this` 指向 vm
+                    alert(this.message)
+                },
+                say: function(msg) {
+                    alert(msg)
+                }
+            }
+        })
+    // 这样就可以同时监听view和model了， 当更改message的时候，view会自动改变，同时当我们更改文本框的值的时候，会发现P标签里的值也在同时改变，这个时候就是view被监听使model改变。 这就实现了数据的双向绑定。
+ </script> 
+
+</html>
