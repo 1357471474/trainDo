@@ -1,0 +1,44 @@
+server:
+  port: 8088
+security:
+  basic:
+    enabled: false
+spring:
+  #数据源配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/traindo?useUnicode=true&characterEncoding=utf8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    connectionProperties: druid.stat.mergeSql=true
+  redis:
+    port=6379
+    database=0
+    host=localhost
+    password=
+    pool.max-active=8
+    pool.max-wait=-1
+    pool.max-idle=8
+    pool.min-idle=0
+    timeout=5000
+  messages:
+    basename: i18n/Messages,i18n/Pages
+  jms:
+    pub-sub-domain: false   # 配置消息的类型，如果是true则表示为topic消息，如果为false表示Queue消息
+  activemq:
+    user: system    # 连接用户名
+    password: manager   # 连接密码
+    broker-url: tcp://localhost:61616 # 消息组件的连接主机信息
+mybatis:
+  #实体类所做包
+  cache: false
+  type-aliases-package: com.traindo.mapper.entity
+  #mapper.xml所在位置
+  mapper-locations: classpath:com/traindo/mapper/*.xml
+logging:
+  level:
+    root: info
+    com.traindo: debug
+  path: F:/file/log
+  config: classpath:logback-spring.xml

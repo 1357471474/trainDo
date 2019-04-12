@@ -1,0 +1,435 @@
+2019-03-28 15:26:38 -Starting WebApplication on pc20170426-PC with PID 3688 (E:\myGit\traindo\traindo\target\classes started by pc20170426 in E:\myGit\traindo\traindo)
+2019-03-28 15:26:38 -Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-03-28 15:26:38 -No active profile set, falling back to default profiles: default
+2019-03-28 15:26:38 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51ed7fda: startup date [Thu Mar 28 15:26:38 CST 2019]; root of context hierarchy
+2019-03-28 15:26:39 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-28 15:26:40 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$34803461] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:40 -Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$28f3f905] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:40 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:40 -Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:40 -Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:40 -Bean 'org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration$$EnhancerBySpringCGLIB$$d985955f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:40 -Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:40 -Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$87bc8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:40 -Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:41 -Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:41 -Bean 'cacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:41 -Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:41 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb6dfe43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:26:41 -Tomcat initialized with port(s): 8088 (http)
+2019-03-28 15:26:41 -Initializing ProtocolHandler ["http-nio-8088"]
+2019-03-28 15:26:41 -Starting service [Tomcat]
+2019-03-28 15:26:41 -Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-03-28 15:26:41 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\android\jdk1.8\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin/server;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/bin;C:/Program Files/Java/jdk1.8.0_171/bin/../jre/lib/amd64;D:\Chrome下载\Git\cmd;C:\Program Files\Java\jdk1.8.0_171\bin;D:\Chrome下载\apache-maven-3.5.3-bin\apache-maven-3.5.3\bin;D:\TortoiseSVN\bin;C:\Program Files\MySQL\mysql-5.6.26-winx64\bin;C:\Windows\system32;;C:\Program Files (x86)\Bitvise Tunnelier;D:\nodeJS;;D:\eclipse;;.]
+2019-03-28 15:26:42 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-28 15:26:42 -Initializing Spring embedded WebApplicationContext
+2019-03-28 15:26:42 -Root WebApplicationContext: initialization completed in 4270 ms
+2019-03-28 15:26:43 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 15:26:43 -Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2019-03-28 15:26:43 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 15:26:43 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 15:26:43 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 15:26:43 -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 15:26:43 -Servlet dispatcherServlet mapped to [/]
+2019-03-28 15:26:43 -Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 15:26:43 -Init DruidDataSource
+2019-03-28 15:26:43 -{dataSource-1} inited
+2019-03-28 15:26:44 -Starting without optional epoll library
+2019-03-28 15:26:44 -Starting without optional kqueue library
+2019-03-28 15:26:45 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 15:26:45 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51ed7fda: startup date [Thu Mar 28 15:26:38 CST 2019]; root of context hierarchy
+2019-03-28 15:26:45 -Mapped "{[/sendMsg]}" onto public void com.traindo.activeMQ.ProducerController.sendMsg(java.lang.String)
+2019-03-28 15:26:45 -Mapped "{[/sendMap]}" onto public void com.traindo.activeMQ.ProducerController.sendMap()
+2019-03-28 15:26:45 -Mapped "{[/getUserInfo]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.get(long)
+2019-03-28 15:26:45 -Mapped "{[/login]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.login(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2019-03-28 15:26:45 -Mapped "{[/loginOut]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.loginOut(javax.servlet.http.HttpServletRequest,com.traindo.mapper.entity.SysUser) throws java.lang.Exception
+2019-03-28 15:26:45 -Mapped "{[/sys/menu/getList]}" onto public com.traindo.common.Json com.traindo.system.controller.MenuController.getList(javax.servlet.http.HttpServletRequest)
+2019-03-28 15:26:45 -Mapped "{[/admin/v1/first],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.traindo.system.controller.QuickRun.firstResp(javax.servlet.http.HttpServletRequest)
+2019-03-28 15:26:45 -Mapped "{[/admin/v1/sessions],methods=[GET]}" onto public java.lang.Object com.traindo.system.controller.QuickRun.sessions(javax.servlet.http.HttpServletRequest)
+2019-03-28 15:26:45 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 15:26:45 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 15:26:45 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 15:26:45 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 15:26:45 -Mapped URL path [/file/upload/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 15:26:46 -LiveReload server is running on port 35729
+2019-03-28 15:26:46 -Registering beans for JMX exposure on startup
+2019-03-28 15:26:46 -Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-03-28 15:26:46 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-28 15:26:46 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-03-28 15:26:46 -Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-03-28 15:26:46 -Starting beans in phase 2147483647
+2019-03-28 15:26:47 -No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-28 15:26:47 -Starting ProtocolHandler ["http-nio-8088"]
+2019-03-28 15:26:47 -Using a shared selector for servlet write/read
+2019-03-28 15:26:47 -Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-28 15:26:47 -Started WebApplication in 9.889 seconds (JVM running for 10.575)
+2019-03-28 15:26:47 -Application start success！
+2019-03-28 15:30:41 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@51ed7fda: startup date [Thu Mar 28 15:26:38 CST 2019]; root of context hierarchy
+2019-03-28 15:30:41 -Stopping beans in phase 2147483647
+2019-03-28 15:30:41 -Unregistering JMX-exposed beans on shutdown
+2019-03-28 15:30:41 -Unregistering JMX-exposed beans
+2019-03-28 15:30:41 -{dataSource-1} closed
+2019-03-28 15:30:43 -Starting WebApplication on pc20170426-PC with PID 3688 (E:\myGit\traindo\traindo\target\classes started by pc20170426 in E:\myGit\traindo\traindo)
+2019-03-28 15:30:43 -Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-03-28 15:30:43 -No active profile set, falling back to default profiles: default
+2019-03-28 15:30:43 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d310ef5: startup date [Thu Mar 28 15:30:43 CST 2019]; root of context hierarchy
+2019-03-28 15:30:43 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-28 15:30:43 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$34803461] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$28f3f905] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Bean 'org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration$$EnhancerBySpringCGLIB$$d985955f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$87bc8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Bean 'cacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb6dfe43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:30:43 -Tomcat initialized with port(s): 8088 (http)
+2019-03-28 15:30:43 -Initializing ProtocolHandler ["http-nio-8088"]
+2019-03-28 15:30:43 -Starting service [Tomcat]
+2019-03-28 15:30:43 -Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-03-28 15:30:43 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-28 15:30:43 -Initializing Spring embedded WebApplicationContext
+2019-03-28 15:30:43 -Root WebApplicationContext: initialization completed in 632 ms
+2019-03-28 15:30:44 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 15:30:44 -Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2019-03-28 15:30:44 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 15:30:44 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 15:30:44 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 15:30:44 -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 15:30:44 -Servlet dispatcherServlet mapped to [/]
+2019-03-28 15:30:44 -Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 15:30:44 -Init DruidDataSource
+2019-03-28 15:30:44 -{dataSource-2} inited
+2019-03-28 15:30:44 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 15:30:45 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d310ef5: startup date [Thu Mar 28 15:30:43 CST 2019]; root of context hierarchy
+2019-03-28 15:30:45 -Mapped "{[/sendMsg]}" onto public void com.traindo.activeMQ.ProducerController.sendMsg(java.lang.String)
+2019-03-28 15:30:45 -Mapped "{[/sendMap]}" onto public void com.traindo.activeMQ.ProducerController.sendMap()
+2019-03-28 15:30:45 -Mapped "{[/api/getUserInfo]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.get(long)
+2019-03-28 15:30:45 -Mapped "{[/api/login]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.login(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2019-03-28 15:30:45 -Mapped "{[/api/loginOut]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.loginOut(javax.servlet.http.HttpServletRequest,com.traindo.mapper.entity.SysUser) throws java.lang.Exception
+2019-03-28 15:30:45 -Mapped "{[/sys/menu/getList]}" onto public com.traindo.common.Json com.traindo.system.controller.MenuController.getList(javax.servlet.http.HttpServletRequest)
+2019-03-28 15:30:45 -Mapped "{[/admin/v1/first],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.traindo.system.controller.QuickRun.firstResp(javax.servlet.http.HttpServletRequest)
+2019-03-28 15:30:45 -Mapped "{[/admin/v1/sessions],methods=[GET]}" onto public java.lang.Object com.traindo.system.controller.QuickRun.sessions(javax.servlet.http.HttpServletRequest)
+2019-03-28 15:30:45 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 15:30:45 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 15:30:45 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 15:30:45 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 15:30:45 -Mapped URL path [/file/upload/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 15:30:45 -LiveReload server is running on port 35729
+2019-03-28 15:30:45 -Registering beans for JMX exposure on startup
+2019-03-28 15:30:45 -Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-03-28 15:30:45 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-28 15:30:45 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-03-28 15:30:45 -Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-03-28 15:30:45 -Starting beans in phase 2147483647
+2019-03-28 15:30:45 -No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-28 15:30:45 -Starting ProtocolHandler ["http-nio-8088"]
+2019-03-28 15:30:46 -Using a shared selector for servlet write/read
+2019-03-28 15:30:46 -Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-28 15:30:46 -Started WebApplication in 2.75 seconds (JVM running for 249.546)
+2019-03-28 15:30:46 -Condition evaluation unchanged
+2019-03-28 15:30:46 -Application start success！
+2019-03-28 15:31:22 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3d310ef5: startup date [Thu Mar 28 15:30:43 CST 2019]; root of context hierarchy
+2019-03-28 15:31:22 -Stopping beans in phase 2147483647
+2019-03-28 15:31:22 -Unregistering JMX-exposed beans on shutdown
+2019-03-28 15:31:22 -Unregistering JMX-exposed beans
+2019-03-28 15:31:22 -{dataSource-2} closed
+2019-03-28 15:31:24 -Starting WebApplication on pc20170426-PC with PID 3688 (E:\myGit\traindo\traindo\target\classes started by pc20170426 in E:\myGit\traindo\traindo)
+2019-03-28 15:31:24 -Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-03-28 15:31:24 -No active profile set, falling back to default profiles: default
+2019-03-28 15:31:24 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4503fb6b: startup date [Thu Mar 28 15:31:24 CST 2019]; root of context hierarchy
+2019-03-28 15:31:24 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-28 15:31:24 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$34803461] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$28f3f905] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Bean 'org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration$$EnhancerBySpringCGLIB$$d985955f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$87bc8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Bean 'cacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb6dfe43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 15:31:24 -Tomcat initialized with port(s): 8088 (http)
+2019-03-28 15:31:24 -Initializing ProtocolHandler ["http-nio-8088"]
+2019-03-28 15:31:24 -Starting service [Tomcat]
+2019-03-28 15:31:24 -Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-03-28 15:31:24 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-28 15:31:24 -Initializing Spring embedded WebApplicationContext
+2019-03-28 15:31:24 -Root WebApplicationContext: initialization completed in 574 ms
+2019-03-28 15:31:24 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 15:31:24 -Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2019-03-28 15:31:24 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 15:31:24 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 15:31:24 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 15:31:24 -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 15:31:24 -Servlet dispatcherServlet mapped to [/]
+2019-03-28 15:31:24 -Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 15:31:24 -Init DruidDataSource
+2019-03-28 15:31:24 -{dataSource-3} inited
+2019-03-28 15:31:25 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 15:31:25 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4503fb6b: startup date [Thu Mar 28 15:31:24 CST 2019]; root of context hierarchy
+2019-03-28 15:31:25 -Mapped "{[/sendMsg]}" onto public void com.traindo.activeMQ.ProducerController.sendMsg(java.lang.String)
+2019-03-28 15:31:25 -Mapped "{[/sendMap]}" onto public void com.traindo.activeMQ.ProducerController.sendMap()
+2019-03-28 15:31:25 -Mapped "{[/getUserInfo]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.get(long)
+2019-03-28 15:31:25 -Mapped "{[/login]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.login(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2019-03-28 15:31:25 -Mapped "{[/loginOut]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.loginOut(javax.servlet.http.HttpServletRequest,com.traindo.mapper.entity.SysUser) throws java.lang.Exception
+2019-03-28 15:31:25 -Mapped "{[/sys/menu/getList]}" onto public com.traindo.common.Json com.traindo.system.controller.MenuController.getList(javax.servlet.http.HttpServletRequest)
+2019-03-28 15:31:25 -Mapped "{[/admin/v1/first],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.traindo.system.controller.QuickRun.firstResp(javax.servlet.http.HttpServletRequest)
+2019-03-28 15:31:25 -Mapped "{[/admin/v1/sessions],methods=[GET]}" onto public java.lang.Object com.traindo.system.controller.QuickRun.sessions(javax.servlet.http.HttpServletRequest)
+2019-03-28 15:31:25 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 15:31:25 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 15:31:25 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 15:31:25 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 15:31:25 -Mapped URL path [/file/upload/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 15:31:25 -LiveReload server is running on port 35729
+2019-03-28 15:31:25 -Registering beans for JMX exposure on startup
+2019-03-28 15:31:25 -Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-03-28 15:31:25 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-28 15:31:25 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-03-28 15:31:25 -Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-03-28 15:31:25 -Starting beans in phase 2147483647
+2019-03-28 15:31:25 -No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-28 15:31:25 -Starting ProtocolHandler ["http-nio-8088"]
+2019-03-28 15:31:25 -Using a shared selector for servlet write/read
+2019-03-28 15:31:25 -Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-28 15:31:25 -Started WebApplication in 1.311 seconds (JVM running for 288.87)
+2019-03-28 15:31:25 -Condition evaluation unchanged
+2019-03-28 15:31:25 -Application start success！
+2019-03-28 15:45:11 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-28 15:45:11 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-28 15:45:11 -FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+2019-03-28 15:45:11 -/
+2019-03-28 15:45:23 -/login
+2019-03-28 15:45:23 -==>  Preparing: select user_id, username, name, password, dept_id, email, mobile, status, user_id_create, gmt_create, gmt_modified, sex, birth, pic_id, live_address, hobby, province, city, district from sys_user where username = ? 
+2019-03-28 15:45:23 -==> Parameters: null
+2019-03-28 15:45:23 -<==      Total: 0
+2019-03-28 15:49:44 -/;
+2019-03-28 16:07:22 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4503fb6b: startup date [Thu Mar 28 15:31:24 CST 2019]; root of context hierarchy
+2019-03-28 16:07:22 -Stopping beans in phase 2147483647
+2019-03-28 16:07:22 -Unregistering JMX-exposed beans on shutdown
+2019-03-28 16:07:22 -Unregistering JMX-exposed beans
+2019-03-28 16:07:22 -{dataSource-3} closed
+2019-03-28 16:07:23 -Starting WebApplication on pc20170426-PC with PID 3688 (E:\myGit\traindo\traindo\target\classes started by pc20170426 in E:\myGit\traindo\traindo)
+2019-03-28 16:07:23 -Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-03-28 16:07:23 -No active profile set, falling back to default profiles: default
+2019-03-28 16:07:23 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a59c407: startup date [Thu Mar 28 16:07:23 CST 2019]; root of context hierarchy
+2019-03-28 16:07:24 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-28 16:07:24 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$34803461] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:24 -Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$28f3f905] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:24 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:24 -Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:24 -Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:24 -Bean 'org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration$$EnhancerBySpringCGLIB$$d985955f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:24 -Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:24 -Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$87bc8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:24 -Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:24 -Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:24 -Bean 'cacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:24 -Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:24 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb6dfe43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:07:25 -Tomcat initialized with port(s): 8088 (http)
+2019-03-28 16:07:25 -Initializing ProtocolHandler ["http-nio-8088"]
+2019-03-28 16:07:25 -Starting service [Tomcat]
+2019-03-28 16:07:25 -Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-03-28 16:07:25 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-28 16:07:25 -Initializing Spring embedded WebApplicationContext
+2019-03-28 16:07:25 -Root WebApplicationContext: initialization completed in 1894 ms
+2019-03-28 16:07:26 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 16:07:26 -Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2019-03-28 16:07:26 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 16:07:26 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 16:07:26 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 16:07:26 -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 16:07:26 -Servlet dispatcherServlet mapped to [/]
+2019-03-28 16:07:26 -Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 16:07:26 -Init DruidDataSource
+2019-03-28 16:07:26 -{dataSource-4} inited
+2019-03-28 16:07:26 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 16:07:27 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a59c407: startup date [Thu Mar 28 16:07:23 CST 2019]; root of context hierarchy
+2019-03-28 16:07:27 -Mapped "{[/sendMsg]}" onto public void com.traindo.activeMQ.ProducerController.sendMsg(java.lang.String)
+2019-03-28 16:07:27 -Mapped "{[/sendMap]}" onto public void com.traindo.activeMQ.ProducerController.sendMap()
+2019-03-28 16:07:27 -Mapped "{[/service/getUserInfo]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.get(long)
+2019-03-28 16:07:27 -Mapped "{[/service/login]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.login(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2019-03-28 16:07:27 -Mapped "{[/service/loginOut]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.loginOut(javax.servlet.http.HttpServletRequest,com.traindo.mapper.entity.SysUser) throws java.lang.Exception
+2019-03-28 16:07:27 -Mapped "{[/sys/menu/getList]}" onto public com.traindo.common.Json com.traindo.system.controller.MenuController.getList(javax.servlet.http.HttpServletRequest)
+2019-03-28 16:07:27 -Mapped "{[/admin/v1/first],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.traindo.system.controller.QuickRun.firstResp(javax.servlet.http.HttpServletRequest)
+2019-03-28 16:07:27 -Mapped "{[/admin/v1/sessions],methods=[GET]}" onto public java.lang.Object com.traindo.system.controller.QuickRun.sessions(javax.servlet.http.HttpServletRequest)
+2019-03-28 16:07:27 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 16:07:27 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 16:07:27 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 16:07:27 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 16:07:27 -Mapped URL path [/file/upload/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 16:07:27 -LiveReload server is running on port 35729
+2019-03-28 16:07:27 -Registering beans for JMX exposure on startup
+2019-03-28 16:07:27 -Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-03-28 16:07:27 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-28 16:07:27 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-03-28 16:07:27 -Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-03-28 16:07:27 -Starting beans in phase 2147483647
+2019-03-28 16:07:27 -No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-28 16:07:27 -Starting ProtocolHandler ["http-nio-8088"]
+2019-03-28 16:07:27 -Using a shared selector for servlet write/read
+2019-03-28 16:07:27 -Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-28 16:07:27 -Started WebApplication in 4.176 seconds (JVM running for 2450.983)
+2019-03-28 16:07:27 -Condition evaluation unchanged
+2019-03-28 16:07:27 -Application start success！
+2019-03-28 16:11:06 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-28 16:11:06 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-28 16:11:06 -FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+2019-03-28 16:11:06 -/service/;
+2019-03-28 16:11:12 -/service/login
+2019-03-28 16:11:12 -==>  Preparing: select user_id, username, name, password, dept_id, email, mobile, status, user_id_create, gmt_create, gmt_modified, sex, birth, pic_id, live_address, hobby, province, city, district from sys_user where username = ? 
+2019-03-28 16:11:12 -==> Parameters: null
+2019-03-28 16:11:12 -<==      Total: 0
+2019-03-28 16:16:14 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@a59c407: startup date [Thu Mar 28 16:07:23 CST 2019]; root of context hierarchy
+2019-03-28 16:16:14 -Stopping beans in phase 2147483647
+2019-03-28 16:16:14 -Unregistering JMX-exposed beans on shutdown
+2019-03-28 16:16:14 -Unregistering JMX-exposed beans
+2019-03-28 16:16:14 -{dataSource-4} closed
+2019-03-28 16:16:16 -Starting WebApplication on pc20170426-PC with PID 3688 (E:\myGit\traindo\traindo\target\classes started by pc20170426 in E:\myGit\traindo\traindo)
+2019-03-28 16:16:16 -Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-03-28 16:16:16 -No active profile set, falling back to default profiles: default
+2019-03-28 16:16:16 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16152144: startup date [Thu Mar 28 16:16:16 CST 2019]; root of context hierarchy
+2019-03-28 16:16:16 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-28 16:16:16 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$34803461] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$28f3f905] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Bean 'org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration$$EnhancerBySpringCGLIB$$d985955f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$87bc8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Bean 'cacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb6dfe43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:16:16 -Tomcat initialized with port(s): 8088 (http)
+2019-03-28 16:16:16 -Initializing ProtocolHandler ["http-nio-8088"]
+2019-03-28 16:16:16 -Starting service [Tomcat]
+2019-03-28 16:16:16 -Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-03-28 16:16:16 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-28 16:16:16 -Initializing Spring embedded WebApplicationContext
+2019-03-28 16:16:16 -Root WebApplicationContext: initialization completed in 500 ms
+2019-03-28 16:16:16 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 16:16:16 -Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2019-03-28 16:16:16 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 16:16:16 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 16:16:16 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 16:16:16 -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 16:16:16 -Servlet dispatcherServlet mapped to [/]
+2019-03-28 16:16:16 -Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 16:16:16 -Init DruidDataSource
+2019-03-28 16:16:16 -{dataSource-5} inited
+2019-03-28 16:16:17 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 16:16:17 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16152144: startup date [Thu Mar 28 16:16:16 CST 2019]; root of context hierarchy
+2019-03-28 16:16:17 -Mapped "{[/sendMsg]}" onto public void com.traindo.activeMQ.ProducerController.sendMsg(java.lang.String)
+2019-03-28 16:16:17 -Mapped "{[/sendMap]}" onto public void com.traindo.activeMQ.ProducerController.sendMap()
+2019-03-28 16:16:17 -Mapped "{[/service/getUserInfo]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.get(long)
+2019-03-28 16:16:17 -Mapped "{[/service/login]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.login(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2019-03-28 16:16:17 -Mapped "{[/service/loginOut]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.loginOut(javax.servlet.http.HttpServletRequest,com.traindo.mapper.entity.SysUser) throws java.lang.Exception
+2019-03-28 16:16:17 -Mapped "{[/sys/menu/getList]}" onto public com.traindo.common.Json com.traindo.system.controller.MenuController.getList(javax.servlet.http.HttpServletRequest)
+2019-03-28 16:16:17 -Mapped "{[/admin/v1/first],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.traindo.system.controller.QuickRun.firstResp(javax.servlet.http.HttpServletRequest)
+2019-03-28 16:16:17 -Mapped "{[/admin/v1/sessions],methods=[GET]}" onto public java.lang.Object com.traindo.system.controller.QuickRun.sessions(javax.servlet.http.HttpServletRequest)
+2019-03-28 16:16:17 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 16:16:17 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 16:16:17 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 16:16:17 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 16:16:17 -Mapped URL path [/file/upload/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 16:16:17 -LiveReload server is running on port 35729
+2019-03-28 16:16:17 -Registering beans for JMX exposure on startup
+2019-03-28 16:16:17 -Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-03-28 16:16:17 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-28 16:16:17 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-03-28 16:16:17 -Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-03-28 16:16:17 -Starting beans in phase 2147483647
+2019-03-28 16:16:17 -No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-28 16:16:17 -Starting ProtocolHandler ["http-nio-8088"]
+2019-03-28 16:16:17 -Using a shared selector for servlet write/read
+2019-03-28 16:16:17 -Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-28 16:16:17 -Started WebApplication in 1.222 seconds (JVM running for 2980.762)
+2019-03-28 16:16:17 -Condition evaluation unchanged
+2019-03-28 16:16:17 -Application start success！
+2019-03-28 16:18:00 -Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-03-28 16:18:00 -FrameworkServlet 'dispatcherServlet': initialization started
+2019-03-28 16:18:00 -FrameworkServlet 'dispatcherServlet': initialization completed in 5 ms
+2019-03-28 16:18:00 -/service/login
+2019-03-28 16:18:00 -==>  Preparing: select user_id, username, name, password, dept_id, email, mobile, status, user_id_create, gmt_create, gmt_modified, sex, birth, pic_id, live_address, hobby, province, city, district from sys_user where username = ? 
+2019-03-28 16:18:00 -==> Parameters: admin(String)
+2019-03-28 16:18:00 -<==      Total: 1
+2019-03-28 16:20:26 -Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@16152144: startup date [Thu Mar 28 16:16:16 CST 2019]; root of context hierarchy
+2019-03-28 16:20:26 -Stopping beans in phase 2147483647
+2019-03-28 16:20:26 -Unregistering JMX-exposed beans on shutdown
+2019-03-28 16:20:26 -Unregistering JMX-exposed beans
+2019-03-28 16:20:26 -{dataSource-5} closed
+2019-03-28 16:20:27 -Starting WebApplication on pc20170426-PC with PID 3688 (E:\myGit\traindo\traindo\target\classes started by pc20170426 in E:\myGit\traindo\traindo)
+2019-03-28 16:20:27 -Running with Spring Boot v2.0.1.RELEASE, Spring v5.0.5.RELEASE
+2019-03-28 16:20:27 -No active profile set, falling back to default profiles: default
+2019-03-28 16:20:27 -Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d147381: startup date [Thu Mar 28 16:20:27 CST 2019]; root of context hierarchy
+2019-03-28 16:20:27 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-28 16:20:27 -Bean 'org.springframework.cache.annotation.ProxyCachingConfiguration' of type [org.springframework.cache.annotation.ProxyCachingConfiguration$$EnhancerBySpringCGLIB$$34803461] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:27 -Bean 'org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$$EnhancerBySpringCGLIB$$28f3f905] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:27 -Bean 'org.springframework.boot.context.properties.ConversionServiceDeducer$Factory' of type [org.springframework.boot.context.properties.ConversionServiceDeducer$Factory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:27 -Bean 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties' of type [org.springframework.boot.autoconfigure.cache.CacheProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:28 -Bean 'cacheManagerCustomizers' of type [org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:28 -Bean 'org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration' of type [org.springframework.boot.autoconfigure.cache.RedisCacheConfiguration$$EnhancerBySpringCGLIB$$d985955f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:28 -Bean 'spring.redis-org.springframework.boot.autoconfigure.data.redis.RedisProperties' of type [org.springframework.boot.autoconfigure.data.redis.RedisProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:28 -Bean 'org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration' of type [org.springframework.boot.autoconfigure.data.redis.LettuceConnectionConfiguration$$EnhancerBySpringCGLIB$$87bc8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:28 -Bean 'lettuceClientResources' of type [io.lettuce.core.resource.DefaultClientResources] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:28 -Bean 'redisConnectionFactory' of type [org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:28 -Bean 'cacheManager' of type [org.springframework.data.redis.cache.RedisCacheManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:28 -Bean 'cacheAutoConfigurationValidator' of type [org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:28 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$eb6dfe43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 16:20:28 -Tomcat initialized with port(s): 8088 (http)
+2019-03-28 16:20:28 -Initializing ProtocolHandler ["http-nio-8088"]
+2019-03-28 16:20:28 -Starting service [Tomcat]
+2019-03-28 16:20:28 -Starting Servlet Engine: Apache Tomcat/8.5.29
+2019-03-28 16:20:28 -At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-03-28 16:20:28 -Initializing Spring embedded WebApplicationContext
+2019-03-28 16:20:28 -Root WebApplicationContext: initialization completed in 714 ms
+2019-03-28 16:20:28 -Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-03-28 16:20:28 -Mapping filter: 'sessionRepositoryFilter' to: [/*]
+2019-03-28 16:20:28 -Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-03-28 16:20:28 -Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-03-28 16:20:28 -Mapping filter: 'requestContextFilter' to: [/*]
+2019-03-28 16:20:28 -Mapping filter: 'webStatFilter' to urls: [/*]
+2019-03-28 16:20:28 -Servlet dispatcherServlet mapped to [/]
+2019-03-28 16:20:28 -Servlet statViewServlet mapped to [/druid/*]
+2019-03-28 16:20:28 -Init DruidDataSource
+2019-03-28 16:20:28 -{dataSource-6} inited
+2019-03-28 16:20:28 -Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 16:20:28 -Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6d147381: startup date [Thu Mar 28 16:20:27 CST 2019]; root of context hierarchy
+2019-03-28 16:20:28 -Mapped "{[/sendMsg]}" onto public void com.traindo.activeMQ.ProducerController.sendMsg(java.lang.String)
+2019-03-28 16:20:28 -Mapped "{[/sendMap]}" onto public void com.traindo.activeMQ.ProducerController.sendMap()
+2019-03-28 16:20:28 -Mapped "{[/getUserInfo]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.get(long)
+2019-03-28 16:20:28 -Mapped "{[/login]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.login(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+2019-03-28 16:20:28 -Mapped "{[/loginOut]}" onto public com.traindo.common.Json com.traindo.system.controller.LoginController.loginOut(javax.servlet.http.HttpServletRequest,com.traindo.mapper.entity.SysUser) throws java.lang.Exception
+2019-03-28 16:20:28 -Mapped "{[/sys/menu/getList]}" onto public com.traindo.common.Json com.traindo.system.controller.MenuController.getList(javax.servlet.http.HttpServletRequest)
+2019-03-28 16:20:28 -Mapped "{[/admin/v1/first],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.traindo.system.controller.QuickRun.firstResp(javax.servlet.http.HttpServletRequest)
+2019-03-28 16:20:28 -Mapped "{[/admin/v1/sessions],methods=[GET]}" onto public java.lang.Object com.traindo.system.controller.QuickRun.sessions(javax.servlet.http.HttpServletRequest)
+2019-03-28 16:20:28 -Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-03-28 16:20:28 -Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-03-28 16:20:28 -Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 16:20:28 -Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 16:20:28 -Mapped URL path [/file/upload/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-03-28 16:20:28 -LiveReload server is running on port 35729
+2019-03-28 16:20:28 -Registering beans for JMX exposure on startup
+2019-03-28 16:20:28 -Bean with name 'statFilter' has been autodetected for JMX exposure
+2019-03-28 16:20:28 -Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-03-28 16:20:28 -Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.spring.boot.autoconfigure:name=dataSource,type=DruidDataSourceWrapper]
+2019-03-28 16:20:28 -Located MBean 'statFilter': registering with JMX server as MBean [com.alibaba.druid.filter.stat:name=statFilter,type=StatFilter]
+2019-03-28 16:20:28 -Starting beans in phase 2147483647
+2019-03-28 16:20:28 -No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+2019-03-28 16:20:28 -Starting ProtocolHandler ["http-nio-8088"]
+2019-03-28 16:20:28 -Using a shared selector for servlet write/read
+2019-03-28 16:20:28 -Tomcat started on port(s): 8088 (http) with context path ''
+2019-03-28 16:20:28 -Started WebApplication in 1.357 seconds (JVM running for 3232.338)
+2019-03-28 16:20:28 -Condition evaluation unchanged
+2019-03-28 16:20:28 -Application start success！
